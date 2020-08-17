@@ -1,0 +1,36 @@
+{
+  "name": "fe-logs",
+  "version": "1.0.13",
+  "author": "xudeming",
+  "email": "xudeming208@126.com",
+  "description": "利用nodejs编写的前端本地日志打点系统",
+  "main": "lib/index.js",
+  "keywords": [
+    "log",
+    "logger",
+    "fe-logs",
+    "fe-log",
+    "node-log",
+    "node-logs"
+  ],
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xudeming208/fe-logs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.1"
+  }
+}
